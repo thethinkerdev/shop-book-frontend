@@ -5,7 +5,7 @@ import Input from "../ui/Input";
 
 const FormLogin = () => {
   return (
-    <main className="flex-1 flex items-center justify-center p-6 relative">
+    <main className="flex-1 flex items-center justify-center p-6 relative bg-radial">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-primary/10 rounded-full blur-[120px] pointer-events-none"></div>
       <div className="layout-content-container w-full max-w-[480px]">
         <div className="glass-card rounded-xl p-8 md:p-12 relative overflow-hidden">
@@ -16,7 +16,9 @@ const FormLogin = () => {
               </span>
             </div>
             <h1 className="text-white text-3xl font-bold mb-3">ورود به حساب</h1>
-            <p className="text-white/60 text-base text-center">فروشگاه نئون دارای متنوع ترین و خاص ترین کتاب ها</p>
+            <p className="text-white/60 text-base text-center">
+              فروشگاه نئون دارای متنوع ترین و خاص ترین کتاب ها
+            </p>
           </div>
           <form className="space-y-5">
             <Input

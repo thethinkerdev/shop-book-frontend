@@ -5,7 +5,7 @@ import Input from "../ui/Input";
 
 const FormRegister = () => {
   return (
-    <main className="flex-1 flex items-center justify-center p-6 relative">
+    <main className="flex-1 flex items-center justify-center p-6 relative bg-radial">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-primary/10 rounded-full blur-[120px] pointer-events-none"></div>
       <div className="layout-content-container w-full max-w-[480px]">
         <div className="glass-card rounded-xl p-8 md:p-12 relative overflow-hidden">
